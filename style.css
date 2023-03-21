@@ -1,0 +1,160 @@
+#ensemble 
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+#partiegauche
+{
+    flex: 2;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+#nom
+{
+    text-decoration: underline;
+    color: rgb(131, 0, 66);
+    font-size: 40px;
+}
+
+.titre h1
+{
+    color: rgb(131, 0, 66);
+    font-size: 50px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.gras
+{
+    font-weight:bold;
+}
+
+p
+{
+    margin-left: 20px;
+}
+
+#autredate
+{
+    text-indent: 60px;
+}
+
+#btn
+{
+    text-align: center;
+}
+
+#lettredemotiv 
+{
+    display: none;
+}
+    
+#pdf
+{
+    margin-top: 100px;
+}  
+
+#partiedroite
+{
+    background-color: rgb(240, 211, 217);
+    flex: 1;
+    padding: 10px;
+    text-indent: 20px;
+    border-left: 3px solid rgb(240, 211, 217);   
+}
+
+#photo
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 240px;
+    border: solid 1px white;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#photo img
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#id 
+{
+    text-align: center;
+    font-size: 44px;
+    font-weight:bold;    
+}
+
+#coord
+{
+    position: relative;
+    margin-top: 10px;
+}
+
+#infos 
+{
+    width: 10%;
+    padding-bottom:10px;
+    margin: 30px;
+    display: inline;
+ }
+    
+#infos p
+{
+    margin-left: 70px;
+}
+    
+ #infos img
+ {
+    width:30px;
+    height:35px;
+    float: left;
+    margin-left: 30px;
+}
+    
+.elem p 
+{
+    margin-bottom: 40px;
+}
+    
+#qualites
+{
+    margin-top: 30px;
+}
+
+#langues
+{
+    margin-top: 60px;
+}
+
+#langues img
+{
+    width: 40%;
+    height: 20%;
+    margin-left: 30px;
+}
+
+#partiegauche:hover
+{
+    background-color: rgb(240, 211, 217);
+}
+
+#partiedroite:not(:hover)
+{
+    background-color: rgb(255, 255, 255);
+}
+
+body
+{
+/*0.4 correspond à l'opacité */
+background-color: rgb(106, 206, 98,0.4);
+}
+
+
