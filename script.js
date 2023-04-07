@@ -1,5 +1,4 @@
 var refPop=null;
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 // Initialise les variables globales
 function init()
 {
